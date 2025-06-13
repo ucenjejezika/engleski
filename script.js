@@ -1,18 +1,18 @@
 const quizData = [
   {
-    question: 'What is the capital of France?',
-    options: ['Paris', 'London', 'Berlin', 'Madrid'],
-    answer: 'Paris',
+    question: 'SIR',
+    options: ['CHEES', 'RICE', 'PASTA', 'BREAD'],
+    answer: 'CHEES',
   },
   {
-    question: 'What is the largest planet in our solar system?',
-    options: ['Mars', 'Saturn', 'Jupiter', 'Neptune'],
-    answer: 'Jupiter',
+    question: 'HLEB',
+    options: ['EGG', 'MEAT', 'BREAD', 'CHIPS'],
+    answer: 'BREAD',
   },
   {
-    question: 'Which country won the FIFA World Cup in 2018?',
-    options: ['Brazil', 'Germany', 'France', 'Argentina'],
-    answer: 'France',
+    question: 'SO',
+    options: ['PUTER', 'MAJONEZ', 'SALT', 'OIL'],
+    answer: 'SALT',
   },
   {
     question: 'What is the tallest mountain in the world?',
