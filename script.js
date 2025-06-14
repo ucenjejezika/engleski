@@ -15,39 +15,39 @@ const quizData = [
     answer: 'SALT',
   },
   {
-    question: 'What is the tallest mountain in the world?',
-    options: ['Mount Everest', 'K2', 'Kangchenjunga', 'Makalu'],
-    answer: 'Mount Everest',
+    question: 'PILETINA',
+    options: ['CHICKEN', 'FISH', 'SEAFOOD', 'JAM'],
+    answer: 'CHICKEN',
   },
   {
-    question: 'Which is the largest ocean on Earth?',
+    question: 'PUTER',
     options: [
-      'Pacific Ocean',
-      'Indian Ocean',
-      'Atlantic Ocean',
-      'Arctic Ocean',
+      'SOUP',
+      'BUTTER',
+      'SUGAR',
+      'VINEGAR',
     ],
-    answer: 'Pacific Ocean',
+    answer: 'BUTTER',
   },
   {
-    question: 'What is the chemical symbol for gold?',
-    options: ['Au', 'Ag', 'Cu', 'Fe'],
-    answer: 'Au',
+    question: 'SALATA',
+    options: ['SALAD', 'MAYONNAISE', 'SUSHI', 'FISH'],
+    answer: 'SALAD',
   },
   {
-    question: 'Who painted the Mona Lisa?',
+    question: 'RIBA',
     options: [
-      'Pablo Picasso',
-      'Vincent van Gogh',
-      'Leonardo da Vinci',
-      'Michelangelo',
+      'SOUP',
+      'SEAFOOD',
+      'FISH',
+      'MEAT',
     ],
-    answer: 'Leonardo da Vinci',
+    answer: 'FISH',
   },
   {
-    question: 'Which planet is known as the Red Planet?',
-    options: ['Mars', 'Venus', 'Mercury', 'Uranus'],
-    answer: 'Mars',
+    question: 'CERALIJE',
+    options: ['SALT', 'JAM', 'SUGAR', 'CEREAL'],
+    answer: 'CEREAL',
   },
   {
     question: 'What is the largest species of shark?',
@@ -178,8 +178,8 @@ function showAnswer() {
   }
 
   resultContainer.innerHTML = `
-    <p>You scored ${score} out of ${quizData.length}!</p>
-    <p>Incorrect Answers:</p>
+    <p>TACNI ODGOVORI ${score} OD UKUPNO ${quizData.length}!</p>
+    <p>NETACNIH IMA:</p>
     ${incorrectAnswersHtml}
   `;
 }
