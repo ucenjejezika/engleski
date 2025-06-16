@@ -145,7 +145,7 @@ function displayResult() {
   submitButton.style.display = 'none';
   retryButton.style.display = 'inline-block';
   showAnswerButton.style.display = 'inline-block';
-  resultContainer.innerHTML = `You scored ${score} out of ${quizData.length}!`;
+  resultContainer.innerHTML = `TACNIH ODGOVORA IMA ${score} OD ${quizData.length}!`;
 }
 
 function retryQuiz() {
@@ -178,7 +178,7 @@ function showAnswer() {
   }
 
   resultContainer.innerHTML = `
-    <p>TACNI ODGOVORI ${score} OD UKUPNO ${quizData.length}!</p>
+    <p>TACNIH ODGOVORA IMA ${score} OD UKUPNO ${quizData.length}!</p>
     <p>NETACNIH IMA:</p>
     ${incorrectAnswersHtml}
   `;
