@@ -50,19 +50,19 @@ const quizData = [
     answer: 'CEREAL',
   },
   {
-    question: 'What is the largest species of shark?',
+    question: 'MESO',
     options: [
-      'Great White Shark',
-      'Whale Shark',
-      'Tiger Shark',
-      'Hammerhead Shark',
+      'SALT',
+      'SUGAR',
+      'SOUP',
+      'MEAT',
     ],
-    answer: 'Whale Shark',
+    answer: 'MEAT',
   },
   {
-    question: 'Which animal is known as the King of the Jungle?',
-    options: ['Lion', 'Tiger', 'Elephant', 'Giraffe'],
-    answer: 'Lion',
+    question: 'SUPA',
+    options: ['CHICKEN', 'SOUP', 'MAJONEZ', 'RICE'],
+    answer: 'SOUP',
   },
 ];
 
