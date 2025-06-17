@@ -170,16 +170,16 @@ function showAnswer() {
   for (let i = 0; i < incorrectAnswers.length; i++) {
     incorrectAnswersHtml += `
       <p>
-        <strong>Question:</strong> ${incorrectAnswers[i].question}<br>
-        <strong>Your Answer:</strong> ${incorrectAnswers[i].incorrectAnswer}<br>
-        <strong>Correct Answer:</strong> ${incorrectAnswers[i].correctAnswer}
+        <strong>PITANJE:</strong> ${incorrectAnswers[i].question}<br>
+        <strong>TVOJ ODGOVOR:</strong> ${incorrectAnswers[i].incorrectAnswer}<br>
+        <strong>TA&#248AN ODGOVOR:</strong> ${incorrectAnswers[i].correctAnswer}
       </p>
     `;
   }
 
   resultContainer.innerHTML = `
     <p>TACNIH ODGOVORA IMA ${score} OD UKUPNO ${quizData.length}!</p>
-    <p>NETACNIH IMA:</p>
+    <p>NETACNI ODGOVORI:</p>
     ${incorrectAnswersHtml}
   `;
 }
