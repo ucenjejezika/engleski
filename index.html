@@ -1,1 +1,183 @@
-
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raspored rada - Decembar 2025</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            padding: 40px;
+            max-width: 800px;
+            width: 100%;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #667eea;
+            margin-bottom: 30px;
+            font-size: 2em;
+        }
+        
+        .schedule-item {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-left: 5px solid #667eea;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .schedule-item:hover {
+            transform: translateX(5px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+        }
+        
+        .date {
+            font-size: 1.3em;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 8px;
+        }
+        
+        .day {
+            color: #667eea;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 0.9em;
+        }
+        
+        .time-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 10px;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        
+        .hours {
+            background: #667eea;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 25px;
+            font-weight: bold;
+        }
+        
+        .time-range {
+            color: #555;
+            font-weight: 500;
+        }
+        
+        .total-summary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 15px;
+            padding: 25px;
+            margin-top: 30px;
+            text-align: center;
+        }
+        
+        .total-summary h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        
+        .total-hours {
+            font-size: 2.5em;
+            font-weight: bold;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 1.5em;
+            }
+            
+            .time-info {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📅 Raspored rada - Decembar 2025</h1>
+        
+        <div class="schedule-item">
+            <div class="date">6.12.2025. <span class="day">Subota</span></div>
+            <div class="time-info">
+                <span class="hours">8h</span>
+                <span class="time-range">⏰ 13:00 - 21:00</span>
+            </div>
+        </div>
+        
+        <div class="schedule-item">
+            <div class="date">7.12.2025. <span class="day">Nedelja</span></div>
+            <div class="time-info">
+                <span class="hours">5.5h</span>
+                <span class="time-range">⏰ 15:30 - 21:00</span>
+            </div>
+        </div>
+        
+        <div class="schedule-item">
+            <div class="date">12.12.2025. <span class="day">Petak</span></div>
+            <div class="time-info">
+                <span class="hours">8h</span>
+                <span class="time-range">⏰ 13:00 - 21:00</span>
+            </div>
+        </div>
+        
+        <div class="schedule-item">
+            <div class="date">14.12.2025. <span class="day">Nedelja</span></div>
+            <div class="time-info">
+                <span class="hours">8h</span>
+                <span class="time-range">⏰ 13:00 - 21:00</span>
+            </div>
+        </div>
+        
+        <div class="schedule-item">
+            <div class="date">20.12.2025. <span class="day">Subota</span></div>
+            <div class="time-info">
+                <span class="hours">5.5h</span>
+                <span class="time-range">⏰ 15:30 - 21:00</span>
+            </div>
+        </div>
+        
+        <div class="schedule-item">
+            <div class="date">21.12.2025. <span class="day">Nedelja</span></div>
+            <div class="time-info">
+                <span class="hours">5.5h</span>
+                <span class="time-range">⏰ 15:30 - 21:00</span>
+            </div>
+        </div>
+        
+        <div class="total-summary">
+            <h2>Ukupno sati</h2>
+            <div class="total-hours">40.5h</div>
+        </div>
+    </div>
+</body>
+</html>
